@@ -1,4 +1,5 @@
  import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 //stl-> stateless widget
 
  class HomePage extends StatelessWidget {
@@ -18,6 +19,8 @@
         elevation: 0,
         centerTitle: true,
         leading:Container(
+          margin: EdgeInsets.all(10),
+          child: SvgPicture.asset('assets\icons\Arrow - Left 2.svg'),
           decoration: BoxDecoration(
             color: Colors.black,
             borderRadius: BorderRadius.circular(10)
